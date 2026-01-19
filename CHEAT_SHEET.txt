@@ -1,0 +1,40 @@
+COLLABSESSION CHEAT SHEET
+==========================
+
+QUICK START
+-----------
+from collabsession import CollabSession
+session = CollabSession("session_id")
+
+ADD AGENTS
+----------
+session.add_agent("FORGE", role="planner")
+session.add_agent("BOLT", role="builder")
+session.add_agent("ATLAS", role="tester")
+
+LOCK RESOURCES
+--------------
+session.lock_resource("file.py", "BOLT")
+session.unlock_resource("file.py")
+session.is_locked("file.py")  # Check if locked
+
+UPDATE STATUS
+-------------
+session.update_agent_status("BOLT", "active", "Building feature")
+
+GET INFORMATION
+---------------
+agents = session.get_agents()
+locks = session.get_locks()
+history = session.get_history()
+status = session.get_status()
+
+NOTIFICATIONS
+-------------
+session.notify_next_role("builder")  # Notify next agent
+
+COMPLETE SESSION
+----------------
+session.complete_session()
+
+For full documentation see README.md
