@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9928d8ea-0e48-430b-8259-4ed1b8c479a1" />
+
 # CollabSession v1.0
 
 **Multi-Agent Coordination Framework for Team Brain**
@@ -580,6 +582,9 @@ python test_collabsession.py
 - **Storage:** SQLite database (~1MB per 1000 sessions)
 
 ---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/aca0ed7b-c441-4b43-92d3-0999752e76ef" />
+
 
 ## 🤝 **Credits**
 
